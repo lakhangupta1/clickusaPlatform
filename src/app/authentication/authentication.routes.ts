@@ -16,26 +16,27 @@ export const AuthenticationRoutes: Routes = [
         path: '404',
         component: NotfoundComponent
       },
-      {
-        path: 'lock',
-        component: LockComponent
-      },
+      // {
+      //   path: 'lock',
+      //   component: LockComponent
+      // },
       {
         path: 'login',
         component: LoginComponent
       },
-      {
-        path: 'login2',
-        component: Login2Component
-      },
+      // {
+      //   path: 'login2',
+      //   component: Login2Component
+      // },
       {
         path: 'signup',
         component: SignupComponent
       },
-      {
-        path: 'signup2',
-        component: Signup2Component
-      },
+      
+      // {
+      //   path: 'signup2',
+      //   component: Signup2Component
+      // },
       {
         path : 'forgotpassword',
         component : ForgotPasswordComponent
